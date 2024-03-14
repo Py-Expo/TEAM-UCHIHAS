@@ -1,0 +1,5 @@
+<!-- Django template -->
+<form action="{% url 'run_streamlit' %}" method="post">
+    {% csrf_token %}
+    <button type="submit">Run Streamlit</button>
+</form>
